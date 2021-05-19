@@ -240,7 +240,6 @@ class Mailer {
 	$data = '';
 	while (!feof($stdin)) {
 	  $data .= fgets($stdin);
-	  print_r($data);
 	}
 
 	// クローズ
